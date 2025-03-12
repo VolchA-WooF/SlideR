@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    border-color: black;
+    overflow: hidden;
+}
+.slider {
+    height: 100%;
+
+}
+.slider-layer {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+  background-position: bottom center ;
+}
+.slide {
+ overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+}
+ 
